@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+    background-color: #1D1D1D;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #3a3a3a;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+    .header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+    .sidebar img {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+
+/* Content styles */
+.content {
+    padding: 10px;
+}
+
+/* API key list styles */
+#api-keys-list {
+    margin-top: 20px;
+}
+
+.api-key {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+    .api-key:last-child {
+        border-bottom: none;
+    }
+
+    /* API key labels styles */
+    .api-key label {
+        margin: 0;
+        font-size: 14px;
+        color: #fff;
+        width: 100%;
+    }
+
+/* Delete button styles */
+.delete-button {
+    background-color: transparent;

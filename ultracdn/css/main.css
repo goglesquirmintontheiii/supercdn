@@ -1,0 +1,88 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    font-size: 0.9vw;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #eee;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3a3a;
+    padding: 20px;
+    color: #fff;
+}
+
+    .header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+.sidebar {
+    background-color: #333;
+    height: 100vh;
+    position: fixed;
+    width: 15vh;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #eee;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2rem;
+    margin: 0.8vh 0;
+    padding: 0.8vh;
+    text-align: left;
+    width: 100%;
+}
+
+    button:hover {
+        background-color: #555;
+    }
+
+.content {
+    margin-left: 9vw;
+    padding: 1.0016666667vw;
+}
+
+
+.box {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 85vh;
+    overflow-y: scroll;
+    padding: 0.8vh;
+    width: 100%;
+}
+
+    .box label {
+        margin: 10px 0;
+    }
+
+label {
+    background-color: transparent;
+    border: none;
+    color: #eee;
+    cursor: pointer;
+    display: block;
+    font-size: 2.3vh;
+    padding-bottom: 0.3vh;
+    text-align: left;
+    width: 100%;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
+

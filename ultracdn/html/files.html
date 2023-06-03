@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <title>Files</title>
+    <!--<link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="/css/bootstrap-icons.css">-->
+    <link rel="stylesheet" href="/css/files.css">
+</head>
+<body class="dark-mode">
+    <div class="header">
+        <h1>Files</h1>
+    </div>
+    <div class="sidebar">
+
+    </div>
+    <div class="content">
+        <div class="upload-btn-wrapper">
+            <button class="btn btn-info text-light" onclick="uploadFile()">Upload selected file</button>
+            <input type="file" name="myfile" class="btn btn-danger" id="fileinput" />
+        </div>
+        <div class="file-list" id="files">
+        </div>
+        <script src="/js/sidebar.js"></script>
+        <script src="/js/cookies.js"></script>
+        <script src="/js/files.js"></script>
+    </div>
+
+    <div id="promptBox" class="prompt-box" style="display: none;">
+  <div class="prompt-content">
+    <h3 class="prompt-title">Rename</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" onkeydown="handleKey(event)" />
+    <p id="error" class="error-message"></p>
+    <button onclick="submitPrompt()">Submit</button>
+  </div>
+</div>
+</body>
+</html>

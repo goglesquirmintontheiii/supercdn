@@ -1,0 +1,105 @@
+
+.dark-mode {
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+}
+
+.file-list {
+    margin-top: 20px;
+}
+
+.file-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #2f2f2f;
+    overflow: auto;
+}
+
+    .file-list-item:hover {
+        background-color: #2f2f2f;
+    }
+
+.file-list-item-name {
+}
+
+.file-list-item-actions {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+a {
+    color: #f5f5f5;
+}
+
+i {
+    font-size: 5vw;
+}
+
+.icon {
+    width: 100%;
+    height: 5vw;
+}
+
+.rightalign {
+    float: right;
+}
+
+i:hover {
+    color: #007bff;
+    font-size: 6vw;
+    transition: 1s;
+}
+
+.prompt-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
+    z-index: 9999;
+}
+
+.prompt-content {
+    background-color: #333; /* Dark content background color */
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff; /* Text color */
+}
+
+.prompt-title {
+    text-align: center;
+    color: #fff; /* Title text color */
+}
+
+.prompt-content label {
+    display: block;
+    margin-top: 10px;
+    color: #fff; /* Label text color */
+}
+
+.prompt-content input {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #555; /* Input field background color */
+    color: #fff; /* Input field text color */
+    width: 90%;
+}
+
+.prompt-content button {
+    display: block;
+    margin-top: 10px;
+    background-color: #777; /* Button background color */
+    color: #fff; /* Button text color */
+    width: 100%;
+}
+
+.error-message {
+    color: red; /* Error message color */
+}

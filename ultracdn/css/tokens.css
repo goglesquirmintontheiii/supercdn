@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    background-color: #1D1D1D;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+}
+
+/* API key list styles */
+#api-keys-list {
+    margin-top: 20px;
+}
+
+.api-key {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+    .api-key:last-child {
+        border-bottom: none;
+    }
+
+    /* API key labels styles */
+    .api-key label {
+        margin: 0;
+        font-size: 16px;
+        color: #fff;
+        width: 120px;
+    }
+
+/* Delete button styles */
+.delete-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+    .delete-button:hover {
+        color: #007bff;
+    }
+
+/* Bandwidth labels styles */
+.api-key .bandwidth-label {
+    font-size: 14px;
+    color: #999;
+}
+
+/* Input field styles */
+.api-key input[type="text"] {
+    flex: 1;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+}
+
+/* Copy button styles */
+.copy-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+    .copy-button:hover {
+        color: #007bff;
+    }
+
+/* Flexbox container for input and copy button */
+.input-container {
+    display: flex;
+    align-items: center;
+}
